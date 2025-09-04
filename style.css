@@ -9,7 +9,6 @@ nav {
     justify-content: space-between;
     align-items: flex-start;
     padding: 10px 20px;
-    
 }
 
 .name {
@@ -28,6 +27,7 @@ nav h2 {
     font-size: 20px;
     font-weight: normal;
     margin-top: -5px;
+    margin-bottom: 0;
 }
 
 .buttons {
@@ -44,4 +44,27 @@ nav a {
 
 nav a:hover {
     color: rgb(30, 30, 30);
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+.about h2 {
+    color: rgb(30, 30, 30);
+    font-size: 32px;
+    font-weight:normal;
+    margin: 0;
+}
+
+.about p {
+    color: rgb(120, 120, 120);
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
 }
