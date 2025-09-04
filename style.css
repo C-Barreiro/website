@@ -49,10 +49,16 @@ nav a:hover {
 
 .about {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 150px;
     padding: 0 20px;
     line-height: 2;
+}
+
+.about_text {
+    margin-right: 50px;
+    width: 500px;
 }
 
 .about h2 {
@@ -66,5 +72,10 @@ nav a:hover {
     color: rgb(120, 120, 120);
     font-size: 20px;
     font-weight: normal;
-    margin: 0;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.profile-image {
+    width: 400px;
 }
